@@ -1,0 +1,2128 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{makeidx}
+\makeindex
+\usepackage[margin=10pt,font=small,labelfont=bf,labelsep=endash]{caption}
+\usepackage{units}
+\usepackage{footnote}
+\usepackage{booktabs}
+\usepackage{flafter}
+\usepackage{wasysym}
+\usepackage{fancyheadings}
+\usepackage{isomath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{array}
+\newcommand*{\diff}{\mathop{}\!\mathrm{d}}
+\newcommand*{\Diff}[1]{\mathop{}\!\mathrm{d^#1}}
+\newcommand*{\der}[2]{\mathop{}\!\frac{\mathrm{d}#2}{\mathrm{d}#1}}
+\newcommand*{\dder}[2]{\mathop{}\!\frac{\mathrm{d}^{2}#2}{\mathrm{d}{#1}^2}}
+\newcommand*{\nder}[3]{\mathop{}\!\frac{\mathrm{d}^{#2}#3}{\mathrm{d}#1^{#2}}}
+\newcommand*{\intg}[2]{\mathop{}\!\int {#1} \,\mathrm{d}{#2}}
+\newcommand*{\intgl}[4]{\mathop{}\!\int \limits_{#3}^{#4} #1 \,\mathrm{d}#2}
+\newcommand*{\iintg}[3]{\mathop{}\!\iint #1 \,\mathrm{d}#2\,\mathrm{d}#3}
+\newcommand*{\un}[1]{\ensuremath{\ \mathrm{#1}}}
+\newcommand*{\Rot}{\operatorname{Rot}}
+\newcommand*{\bvec}{\vectorsym}
+\newcommand*{\bmat}{\matrixsym}
+\fancyhf{}               % Clear fancy header/footer
+\fancyhead[L]{Koyo Bearings USA, Analytical Engineering}
+\fancyhead[R]{\thepage}  % Page number in Right footer
+\fancyfoot[L]{John Alexiou - john.alexiou@jtekt.com}   % My name in Left footer
+\fancyfoot[R]{\jobname}
+\makeatletter
+\let\ps@plain\ps@fancy   % Plain page style = fancy page style
+\makeatother
+%Width  of line below header
+%\setlength{\headrulewidth}{1pt}
+%\usepackage[pdfborder={0 0 0}]{hyperref}
+%\usepackage{xcolor}
+%\usepackage{asymptote}
+%\usepackage[samesize]{cancel}
+\setlength{\footnotesep}{12pt}
+\makesavenoteenv{tabular}
+%\usepackage{fancyvrb}
+\end_preamble
+\use_default_options true
+\begin_modules
+algorithm2e
+theorems-ams
+InStar
+multicol
+\end_modules
+\maintain_unincluded_children false
+\begin_forced_local_layout
+Format 66
+Style "In Preamble"
+	Category "FrontMatter"
+	Margin Static
+	LatexType Paragraph
+	InTitle 0
+	InPreamble 1
+	TocLevel -1000
+	ResumeCounter 0
+	StepMasterCounter 0
+	NeedProtect 0
+	KeepEmpty 0
+	NextNoIndent 0
+	CommandDepth 0
+	LatexName "dummy"
+	ItemCommand item
+	LabelType No_Label
+	EndLabelType No_Label
+	ParagraphGroup "0"
+	ParIndent MM
+	ParSkip 0.4
+	ItemSep 0
+	TopSep 0
+	BottomSep 0
+	LabelBottomSep 0
+	ParSep 0
+	NewLine 1
+	Align Block
+	AlignPossible Block, Center, Layout, Left, Right
+	FreeSpacing 0
+	PassThru 0
+	ParbreakIsNewline 0
+	RefPrefix OFF
+	HTMLLabelFirst 0
+	HTMLStyle
+div.standard {
+margin-bottom: 2ex;
+}
+	EndHTMLStyle
+	HTMLForceCSS 0
+	HTMLTitle 0
+	Spellcheck 1
+	ForceLocal 1
+End
+Style "In Title"
+	Category "FrontMatter"
+	Margin Static
+	LatexType Paragraph
+	InTitle 1
+	InPreamble 0
+	TocLevel -1000
+	ResumeCounter 0
+	StepMasterCounter 0
+	NeedProtect 0
+	KeepEmpty 0
+	NextNoIndent 0
+	CommandDepth 0
+	LatexName "dummy"
+	ItemCommand item
+	LabelType No_Label
+	EndLabelType No_Label
+	ParagraphGroup "0"
+	ParIndent MM
+	ParSkip 0.4
+	ItemSep 0
+	TopSep 0
+	BottomSep 0
+	LabelBottomSep 0
+	ParSep 0
+	NewLine 1
+	Align Block
+	AlignPossible Block, Center, Layout, Left, Right
+	FreeSpacing 0
+	PassThru 0
+	ParbreakIsNewline 0
+	RefPrefix OFF
+	HTMLLabelFirst 0
+	HTMLStyle
+div.standard {
+margin-bottom: 2ex;
+}
+	EndHTMLStyle
+	HTMLForceCSS 0
+	HTMLTitle 0
+	Spellcheck 1
+	ForceLocal 1
+End
+\end_forced_local_layout
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\output_sync_macro "\usepackage[active]{srcltx}"
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Mass Properties of a Triangular Pyramid
+\begin_inset Newline newline
+\end_inset
+
+
+\size large
+And more complex meshes such as STL files
+\end_layout
+
+\begin_layout Abstract
+Consider a triangle in space defined by three vertices 
+\emph on
+A
+\emph default
+, 
+\emph on
+B
+\emph default
+, 
+\emph on
+C
+\emph default
+ and connect them to the origin to create a elemental volume element.
+ The shape is that of a triangular pyramid, or wedge.
+ Such shape may come from any mesh definition consisting of nodes (vertices)
+ and elements (faces).
+ Examples are STL files, OBJ files, SLP files, and VDA files.
+ The purpose of this paper is to analyze each triangular face in the mesh
+ and establish calculations for properties such as area, volume, center
+ of mass and mass moment of inertia.
+ The combined properties of all the triangular faces in a mesh are then
+ used to establish the mass properties of a solid geometry object.
+ The end result is to establish the mass properties of a complex object
+ for use in rigid body simulations.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename fig_wedge_crop.png
+	lyxscale 50
+	width 60col%
+	BoundingBox 0bp 0bp 434bp 336bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:wedge-definition"
+
+\end_inset
+
+Basic wedge definition from three vertices 
+\emph on
+A
+\emph default
+, 
+\emph on
+B
+\emph default
+ and 
+\emph on
+C
+\emph default
+ to form a triangle that is connected to the origin.
+ The properties considered are: a) The area of the triangle, b) The normal
+ direction of the triangle, c) The centroid of the triangle, d) The volume
+ of the wedge, e) The center of mass of the wedge, f) The mass moment of
+ inertia of the wedge.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Definitions
+\end_layout
+
+\begin_layout Standard
+A mesh decomposed a shape into multiple spatial triangular faces.
+ Each face is described by three vertices, each with coordinates 
+\begin_inset Formula $\bvec r_{A}$
+\end_inset
+
+, 
+\begin_inset Formula $\bvec r_{B}$
+\end_inset
+
+, and 
+\begin_inset Formula $\bvec r_{C}$
+\end_inset
+
+.
+ Additionally, the uniform density 
+\begin_inset Formula $\rho$
+\end_inset
+
+ is given for the entire shape.
+ That is all the information needed to extract all the mass properties needed.
+ See Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:wedge-definition"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for a visualization of each wedge elemental volume described by the triangular
+ face 
+\emph on
+ABC
+\emph default
+ and the origin.
+ The mass properties of each elemental volume is calculated in order to
+ combine them to get the mass properties of the entire shape.
+\end_layout
+
+\begin_layout Subsection
+Parameterization
+\end_layout
+
+\begin_layout Standard
+The goal is to find a way to represent the position of every point inside
+ the volume using three parameters 
+\begin_inset Formula $u$
+\end_inset
+
+, 
+\begin_inset Formula $v$
+\end_inset
+
+ and 
+\begin_inset Formula $w$
+\end_inset
+
+ that only range between 
+\begin_inset Formula $0\ldots1$
+\end_inset
+
+ in order to cover the entire volume.
+ Start by parameterizing the points between two points, for example 
+\emph on
+B
+\emph default
+ and 
+\emph on
+C
+\emph default
+.
+ This is done with 
+\begin_inset Formula $\left(1-v\right)\bvec r_{B}+v\,\bvec r_{C}$
+\end_inset
+
+.
+ Apply the same scheme again to parameterize the triangle 
+\emph on
+ABC
+\emph default
+ by 
+\begin_inset Formula 
+\begin{equation}
+\bvec r_{{\rm \triangle}}=\left(1-u\right)\bvec r_{A}+u\,\left(\left(1-v\right)\bvec r_{B}+v\,\bvec r_{C}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A simple scaling by a parameter 
+\begin_inset Formula $w$
+\end_inset
+
+ can be used to select which triangle is represented between the origin
+ and 
+\emph on
+ABC
+\emph default
+.
+ So the volume parameterization is
+\begin_inset Formula 
+\begin{equation}
+\bvec r(u,v,w)=w\left(1-u\right)\bvec r_{A}+w\,u\,\left(1-v\right)\bvec r_{B}+w\,u\,v\,\bvec r_{C}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Analysis
+\end_layout
+
+\begin_layout Standard
+To analyze a parametric surface or volume, the following partial derivatives
+ are needed
+\begin_inset Formula 
+\begin{equation}
+\begin{aligned}\frac{\partial\bvec r}{\partial u} & =w\left(-\bvec r_{A}+\left(1-v\right)\bvec r_{B}+v\bvec r_{C}\right)\\
+\frac{\partial\bvec r}{\partial v} & =-u\,w\,\left(\bvec r_{B}-\bvec r_{C}\right)\\
+\frac{\partial\bvec r}{\partial w} & =\left(1-u\right)\bvec r_{A}+u\,\left(1-v\right)\bvec r_{B}+u\,v\,\bvec r_{C}
+\end{aligned}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Area
+\end_layout
+
+\begin_layout Standard
+The surface area of the triangle is only of interest because it is intermediate
+ step to finding the volume.
+ Also after the volume is calculated, the area is used to find the height
+ of the triangle since the well known volume formula connects the base area
+ of a triangular prism with the height of the prism.
+ 
+\begin_inset Formula 
+\begin{equation}
+\text{(volume)}=\text{\ensuremath{\frac{1}{3}}(height)\text{(base area)}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The differential area element for the parametric surface 
+\begin_inset Formula $\bvec r(u,v)$
+\end_inset
+
+ where 
+\begin_inset Formula $w$
+\end_inset
+
+ is fixed is defined by
+\begin_inset Formula 
+\begin{equation}
+{\rm d}A=\|\left(\frac{\partial\bvec r}{\partial u}\times\frac{\partial\bvec r}{\partial v}\right)\|{\rm d}u{\rm d}v
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The cross product is expanded
+\begin_inset Formula 
+\begin{multline}
+\begin{aligned}\frac{\partial\bvec r}{\partial u}\times\frac{\partial\bvec r}{\partial v} & =\end{aligned}
+\\
+=\left(-w\bvec r_{A}+w\left(1-v\right)\bvec r_{B}+w\,v\bvec r_{C}\right)\times\left(-u\,w\,\left(\bvec r_{B}-\bvec r_{C}\right)\right)\\
+=\left(u\,w^{2}\right)\left(\bvec r_{A}-\left(1-v\right)\bvec r_{B}-v\bvec r_{C}\right)\times\left(\bvec r_{B}-\bvec r_{C}\right)\\
+=\left(u\,w^{2}\right)\left(\left(\bvec r_{A}-v\bvec r_{C}\right)\times\bvec r_{B}-\left(\bvec r_{A}-\left(1-v\right)\bvec r_{B}\right)\times\bvec r_{C}\right)\\
+=\left(u\,w^{2}\right)\left(\left(\bvec r_{A}\times\bvec r_{B}\right)-v\left(\bvec r_{C}\times\bvec r_{B}\right)-\left(\bvec r_{A}\times\bvec r_{C}\right)+\left(1-v\right)\left(\bvec r_{B}\times\bvec r_{C}\right)\right)\\
+=\left(u\,w^{2}\right)\left(\bvec r_{A}\times\bvec r_{B}+\bvec r_{B}\times\bvec r_{C}+\bvec r_{C}\times\bvec r_{A}\right)
+\end{multline}
+
+\end_inset
+
+The last part with all the cross products defines a constant vector 
+\begin_inset Formula $\bvec n$
+\end_inset
+
+ which happens to be normal to the triangle.
+ 
+\begin_inset Formula 
+\begin{equation}
+{\rm d}A=\|\bvec n\|\left(u\,w^{2}\right){\rm d}u{\rm d}v
+\end{equation}
+
+\end_inset
+
+where
+\begin_inset Formula 
+\begin{equation}
+\bvec n=\bvec r_{A}\times\bvec r_{B}+\bvec r_{B}\times\bvec r_{C}+\bvec r_{C}\times\bvec r_{A}
+\end{equation}
+
+\end_inset
+
+point to the surface normal of the triangle 
+\emph on
+ABC
+\emph default
+.
+ You can prove at the above by defining the surface normal as the cross
+ product of two sides 
+\begin_inset Formula 
+\begin{multline}
+\bvec n=\left(\bvec r_{B}-\bvec r_{A}\right)\times\left(\bvec r_{C}-\bvec r_{A}\right)\\
+=\bvec r_{B}\times\bvec r_{C}-\bvec r_{A}\times\bvec r_{C}-\bvec r_{B}\times\bvec r_{A}
+\end{multline}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So the area of the the triangle with constant 
+\begin_inset Formula $w$
+\end_inset
+
+ is
+\begin_inset Formula 
+\begin{multline}
+A(w)=\int{\rm d}A=w^{2}\left(\iint\limits _{0}^{1}u\,{\rm d}u{\rm d}v\right)\|\bvec n\|\\
+A(w)=\tfrac{w^{2}}{2}\|\bvec r_{A}\times\bvec r_{B}+\bvec r_{B}\times\bvec r_{C}+\bvec r_{C}\times\bvec r_{A}\|
+\end{multline}
+
+\end_inset
+
+This confirms the well known formula for the triangle 
+\emph on
+ABC
+\emph default
+, by using 
+\begin_inset Formula $w=1$
+\end_inset
+
+ above
+\begin_inset Formula 
+\begin{equation}
+A_{\triangle}=\tfrac{1}{2}\|\bvec r_{A}\times\bvec r_{B}+\bvec r_{B}\times\bvec r_{C}+\bvec r_{C}\times\bvec r_{A}\|\label{eq:area}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Volume & Mass
+\end_layout
+
+\begin_layout Standard
+The differential volume element for the parametric triangular pyramid 
+\begin_inset Formula $\bvec r(u,v,w)$
+\end_inset
+
+ is defined by 
+\begin_inset Formula 
+\begin{equation}
+{\rm d}V=\frac{\partial\bvec r}{\partial w}\cdot\left(\frac{\partial\bvec r}{\partial u}\times\frac{\partial\bvec r}{\partial v}\right){\rm d}u{\rm d}v{\rm d}w
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The cross product is already simplified above in the area calculation, and
+ so the volume element is
+\begin_inset Formula 
+\begin{multline}
+\frac{{\rm d}V}{{\rm d}u{\rm d}v{\rm d}w}=\frac{\partial\bvec r}{\partial w}\cdot\left(\frac{\partial\bvec r}{\partial u}\times\frac{\partial\bvec r}{\partial v}\right)\\
+=\frac{\partial\bvec r}{\partial w}\cdot\left(\left(u\,w^{2}\right)\bvec n\right)\\
+=\left(u\,w^{2}\right)\left(\left(1-u\right)\bvec r_{A}\cdot\bvec n+u\,\left(1-v\right)\bvec r_{B}\cdot\bvec n+u\,v\,\bvec r_{C}\cdot\bvec n\right)\\
+=w^{2}u\,\left(1-u\right)\bvec r_{A}\cdot\left(\bvec r_{A}\times\bvec r_{B}+\bvec r_{B}\times\bvec r_{C}+\bvec r_{C}\times\bvec r_{A}\right)\\
++w^{2}u^{2}\,\left(1-v\right)\bvec r_{B}\cdot\left(\bvec r_{A}\times\bvec r_{B}+\bvec r_{B}\times\bvec r_{C}+\bvec r_{C}\times\bvec r_{A}\right)\\
++w^{2}u^{2}\,v\,\bvec r_{C}\cdot\left(\bvec r_{A}\times\bvec r_{B}+\bvec r_{B}\times\bvec r_{C}+\bvec r_{C}\times\bvec r_{A}\right)\\
+=w^{2}u\,\left(1-u\right)\bvec r_{A}\cdot\left(\bvec r_{B}\times\bvec r_{C}\right)+w^{2}u^{2}\,\left(1-v\right)\bvec r_{B}\cdot\left(\bvec r_{C}\times\bvec r_{A}\right)+w^{2}u^{2}\,v\,\bvec r_{C}\cdot\left(\bvec r_{A}\times\bvec r_{B}\right)\\
+=w^{2}u\,\left(1-u\right)\bvec r_{A}\cdot\left(\bvec r_{B}\times\bvec r_{C}\right)+\left(w^{2}u^{2}\,\left(1-v\right)+w^{2}u^{2}\,v\right)\bvec r_{C}\cdot\left(\bvec r_{A}\times\bvec r_{B}\right)\\
+=w^{2}u\,\left(1-u\right)\bvec r_{A}\cdot\left(\bvec r_{B}\times\bvec r_{C}\right)+\left(w^{2}u^{2}\right)\bvec r_{A}\cdot\left(\bvec r_{B}\times\bvec r_{C}\right)\\
+=\left(w^{2}u\,\left(1-u\right)+w^{2}u\right)\left(\bvec r_{A}\cdot\left(\bvec r_{B}\times\bvec r_{C}\right)\right)
+\end{multline}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The simplifications above are due to the possible permutations of the vector
+ triple product 
+\begin_inset Formula $a\cdot\left(b\times c\right)=b\cdot\left(c\times a\right)=c\cdot\left(a\times b\right)$
+\end_inset
+
+.
+ 
+\begin_inset Formula 
+\begin{equation}
+{\rm d}V=w^{2}u\,\left(\bvec r_{A}\cdot\left(\bvec r_{B}\times\bvec r_{C}\right)\right){\rm d}u{\rm d}v{\rm d}w
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The total volume of the triangular pyramid is calculated as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{multline}
+V=\int{\rm d}V=\iiint\limits _{0}^{1}w^{2}u\,\left(\bvec r_{A}\cdot\left(\bvec r_{B}\times\bvec r_{C}\right)\right){\rm d}u{\rm d}v{\rm d}w\\
+V=\tfrac{1}{6}\left(\bvec r_{A}\cdot\left(\bvec r_{B}\times\bvec r_{C}\right)\right)\label{eq:volume}
+\end{multline}
+
+\end_inset
+
+The above constant 
+\begin_inset Formula $6V=\bvec r_{A}\cdot\left(\bvec r_{B}\times\bvec r_{C}\right)$
+\end_inset
+
+ is used in the volume integrals below to calculate the mass properties
+ of the pyramid volume
+\begin_inset Formula 
+\begin{equation}
+m=6\iiint\limits _{0}^{1}\left(w^{2}u\right)\rho V\,{\rm d}u{\rm d}v{\rm d}w=\rho V\label{eq:mass}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Height
+\end_layout
+
+\begin_layout Standard
+The height of the pyramid is calculated from the volume and surface area
+ of triangle base
+\begin_inset Formula 
+\begin{multline}
+h=\frac{3V}{A}=\frac{\tfrac{3}{6}\left(\bvec r_{A}\cdot\left(\bvec r_{B}\times\bvec r_{C}\right)\right)}{\tfrac{1}{2}\|\bvec r_{A}\times\bvec r_{B}+\bvec r_{B}\times\bvec r_{C}+\bvec r_{C}\times\bvec r_{A}\|}\\
+h=\frac{\bvec r_{A}\cdot\left(\bvec r_{B}\times\bvec r_{C}\right)}{\|\bvec r_{A}\times\bvec r_{B}+\bvec r_{B}\times\bvec r_{C}+\bvec r_{C}\times\bvec r_{A}\|}\label{eq:height}
+\end{multline}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Center of Mass
+\end_layout
+
+\begin_layout Standard
+The center of mass is defined as the weighted sum of each location within
+ the volume.
+\begin_inset Formula 
+\begin{multline}
+\bvec c=\tfrac{1}{m}6\iiint\limits _{0}^{1}\left(w^{2}u\right)\bvec r(u,v,w)\rho V\,{\rm d}u{\rm d}v{\rm d}w\\
+=6\iiint\limits _{0}^{1}\left(w^{2}u\right)\left(w\left(1-u\right)\bvec r_{A}+w\,u\,\left(1-v\right)\bvec r_{C}+w\,u\,v\,\bvec r_{C}\right)\,{\rm d}u{\rm d}v{\rm d}w\\
+=6\int\limits _{0}^{1}\tfrac{w^{3}}{6}\left(\bvec r_{A}+\bvec r_{C}+\bvec r_{C}\right){\rm d}w
+\end{multline}
+
+\end_inset
+
+The result is consistent with the well known formula for center of mass
+ of a triangular pyramid
+\begin_inset Formula 
+\begin{equation}
+\bvec c=\tfrac{1}{4}\left(\bvec r_{A}+\bvec r_{C}+\bvec r_{C}\right)\label{eq:com}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Mass Moment of Inertia
+\end_layout
+
+\begin_layout Standard
+Mass moment of inertia about the origin is defined from the integral form
+ of the parallel axis theorem
+\begin_inset Formula 
+\begin{multline}
+\mathbf{I}=\int\rho\left(-\bvec r\times\bvec r\times\right)\,{\rm d}V\\
+=6m\iiint\limits _{0}^{1}\left(w^{2}u\right)\left(-\bvec r(u,v,w)\times\bvec r(u,v,w)\times\right)\,{\rm d}u{\rm d}v{\rm d}w
+\end{multline}
+
+\end_inset
+
+here 
+\begin_inset Formula $\mathbf{cross}\left(\bvec r\right)=\bvec r\times$
+\end_inset
+
+ represents a 3×3 skew symmetric matrix called the cross product operator
+ matrix, and it is defined as
+\begin_inset Formula 
+\begin{equation}
+\mathbf{cross}\left(\begin{pmatrix}x\\
+y\\
+z
+\end{pmatrix}\right)=\begin{pmatrix}x\\
+y\\
+z
+\end{pmatrix}\times=\begin{vmatrix}0 & -z & y\\
+z & 0 & -x\\
+-y & x & 0
+\end{vmatrix}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+The parallel axis part is simplified a little by collecting like terms
+\begin_inset Formula 
+\begin{multline}
+-\bvec r(u,v,w)\times\bvec r(u,v,w)\times=\\
+-\left(w\left(1-u\right)\bvec r_{A}\times+w\,u\,\left(1-v\right)\bvec r_{B}\times+w\,u\,v\,\bvec r_{C}\times\right)\left(w\left(1-u\right)\bvec r_{A}\times\right)\\
+-\left(w\left(1-u\right)\bvec r_{A}\times+w\,u\,\left(1-v\right)\bvec r_{B}\times+w\,u\,v\,\bvec r_{C}\times\right)\left(w\,u\,\left(1-v\right)\bvec r_{B}\times\right)\\
+-\left(w\left(1-u\right)\bvec r_{A}\times+w\,u\,\left(1-v\right)\bvec r_{B}\times+w\,u\,v\,\bvec r_{C}\times\right)\left(w\,u\,v\,\bvec r_{C}\times\right)\\
+=-w^{2}\left(1-u\right)\left(\left(1-u\right)\bvec r_{A}\times\bvec r_{A}\times+u\,\left(1-v\right)\bvec r_{B}\times\bvec r_{A}\times+u\,v\,\bvec r_{C}\times\bvec r_{A}\times\right)\\
+-w^{2}\,u\,\left(1-v\right)\left(\left(1-u\right)\bvec r_{A}\times\bvec r_{B}\times+u\,\left(1-v\right)\bvec r_{B}\times\bvec r_{B}\times+u\,v\,\bvec r_{C}\times\bvec r_{B}\times\right)\\
+-w^{2}\,u\,v\,\left(\left(1-u\right)\bvec r_{A}\times\bvec r_{C}\times+u\,\left(1-v\right)\bvec r_{B}\times\bvec r_{C}\times+u\,v\,\bvec r_{C}\times\bvec r_{C}\times\right)
+\end{multline}
+
+\end_inset
+
+The integration is carried out in three parts 
+\begin_inset Formula 
+\begin{multline}
+\mathbf{I}=6m\iiint\limits _{0}^{1}\left(w^{2}u\right)\left(-\bvec r(u,v,w)\times\bvec r(u,v,w)\times\right)\,{\rm d}u{\rm d}v{\rm d}w\\
+=-6m\iiint\limits _{0}^{1}\left(w^{2}u\right)\left(w^{2}\left(1-u\right)\left(\left(1-u\right)\bvec r_{A}\times\bvec r_{A}\times+u\,\left(1-v\right)\bvec r_{B}\times\bvec r_{A}\times+u\,v\,\bvec r_{C}\times\bvec r_{A}\times\right)\right)\,{\rm d}u{\rm d}v{\rm d}w\\
+-6m\iiint\limits _{0}^{1}\left(w^{2}u\right)\left(w^{2}\,u\,\left(1-v\right)\left(\left(1-u\right)\bvec r_{A}\times\bvec r_{B}\times+u\,\left(1-v\right)\bvec r_{B}\times\bvec r_{B}\times+u\,v\,\bvec r_{C}\times\bvec r_{B}\times\right)\right)\,{\rm d}u{\rm d}v{\rm d}w\\
+-6m\iiint\limits _{0}^{1}\left(w^{2}u\right)\left(w^{2}\,u\,v\,\left(\left(1-u\right)\bvec r_{A}\times\bvec r_{C}\times+u\,\left(1-v\right)\bvec r_{B}\times\bvec r_{C}\times+u\,v\,\bvec r_{C}\times\bvec r_{C}\times\right)\right)\,{\rm d}u{\rm d}v{\rm d}w\\
+=-6m\biggl(\frac{2\bvec r_{A}\times\bvec r_{A}\times+\bvec r_{B}\times\bvec r_{A}\times+\bvec r_{C}\times\bvec r_{A}\times}{120}+\\
++\frac{\bvec r_{A}\times\bvec r_{B}\times+2\bvec r_{B}\times\bvec r_{B}\times+\bvec r_{C}\times\bvec r_{B}\times}{120}\\
++\frac{\bvec r_{A}\times\bvec r_{C}\times+\bvec r_{B}\times\bvec r_{C}\times+2\bvec r_{C}\times\bvec r_{C}\times}{120}\biggr)\\
+=-6m\frac{\left[\left(\bvec r_{A}+\bvec r_{B}\right)\times\right]^{2}+\left[\left(\bvec r_{B}+\bvec r_{A}\right)\times\right]^{2}+\left[\left(\bvec r_{C}+\bvec r_{A}\right)\times\right]^{2}}{120}
+\end{multline}
+
+\end_inset
+
+with some work collecting like terms the mass moment of inertia of the triangula
+r pyramid is
+\begin_inset Formula 
+\begin{equation}
+\mathbf{I}=\tfrac{m}{20}\left(\mathbf{parallel}\left(\bvec r_{A}+\bvec r_{B}\right)+\mathbf{parallel}\left(\bvec r_{B}+\bvec r_{C}\right)+\mathbf{parallel}\left(\bvec r_{C}+\bvec r_{A}\right)\right)\label{eq:mmoi_origin}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathbf{parallel}(\bvec r)=-\left[\bvec r\times\right]^{2}=-\bvec r\times\bvec r\times=\begin{vmatrix}y^{2}+z^{2} & -xy & -xz\\
+-xy & x^{2}+z^{2} & -yz\\
+-xz & -yz & x^{2}+y^{2}
+\end{vmatrix}$
+\end_inset
+
+ is the parallel axis theorem in matrix form.
+\end_layout
+
+\begin_layout Standard
+Finally, the mass moment of inertia at the center of mass is calculated
+ yet again with the parallel axis theorem
+\begin_inset Formula 
+\begin{equation}
+\mathbf{I}_{C}=\mathbf{I}-m\left(-\bvec c\times\bvec c\times\right)=\mathbf{I}-m\,\mathbf{parallel}\left(\bvec c\right)\label{eq:mmoi_com}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement th
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename mmoi_wedge_3.png
+	lyxscale 50
+	width 85col%
+	BoundingBox 0bp 0bp 434bp 336bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:wedge-CAD"
+
+\end_inset
+
+Simple wedge definition from three points 
+\emph on
+ABC
+\emph default
+.
+ The volume and mass properties are calculated in CAD and compared to the
+ values calculated in this paper.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Example Calculation
+\end_layout
+
+\begin_layout Standard
+A simple wedge is defined in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:wedge-CAD"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ with sides 40mm, 25mm and 8mm.
+ The three vertices defining the driving triangle are defined as
+\begin_inset Formula 
+\begin{equation}
+\begin{aligned}\bvec r_{A} & =\begin{pmatrix}40\\
+0\\
+0
+\end{pmatrix} & \bvec r_{B} & =\begin{pmatrix}0\\
+25\\
+0
+\end{pmatrix} & \bvec r_{C} & =\begin{pmatrix}0\\
+0\\
+8
+\end{pmatrix}\end{aligned}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The values calculated in CAD are 
+\begin_inset Formula $V=1333.33\overline{3}$
+\end_inset
+
+ and with density of 
+\begin_inset Formula $\rho=10\,10^{-6}$
+\end_inset
+
+ the mass is 
+\begin_inset Formula $m=0.0133\overline{3}$
+\end_inset
+
+.
+ The center of mass is at 
+\begin_inset Formula $\bvec c=\begin{pmatrix}10.0 & 6.25 & 2.0\end{pmatrix}$
+\end_inset
+
+and the mass moment of inertia components at the origin and center of mass
+ are
+\begin_inset Formula 
+\begin{align}
+\mathbf{I} & =\begin{vmatrix}0.9186\overline{6} & -0.66\overline{6} & -0.213\overline{3}\\
+ & 0.22186\overline{6} & -0.133\overline{3}\\
+\text{symmetry} &  & 2.96\overline{6}
+\end{vmatrix} & \mathbf{I}_{C} & =\begin{vmatrix}0.3445 & 0.166\overline{6} & 0.0533\overline{3}\\
+ & 0.8320 & 0.33\overline{3}\\
+\text{symmetry} &  & 1.1125
+\end{vmatrix}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These the calculations in this paper are confirmed from the values above
+\begin_inset Formula 
+\begin{align}
+V & =\tfrac{1}{6}\begin{pmatrix}40\\
+0\\
+0
+\end{pmatrix}\cdot\left(\begin{pmatrix}0\\
+25\\
+0
+\end{pmatrix}\times\begin{pmatrix}0\\
+0\\
+8
+\end{pmatrix}\right)=\tfrac{1}{6}\begin{pmatrix}40\\
+0\\
+0
+\end{pmatrix}\cdot\begin{pmatrix}200\\
+0\\
+0
+\end{pmatrix}=\frac{8000}{6}=1333.3\overline{3}\;\checkmark\\
+m & =\rho V=10\,10^{-6}\,1333.3\overline{3}=0.01333\overline{3}\;\checkmark\\
+\bvec c & =\tfrac{1}{4}\left(\begin{pmatrix}40\\
+0\\
+0
+\end{pmatrix}+\begin{pmatrix}0\\
+25\\
+0
+\end{pmatrix}+\begin{pmatrix}0\\
+0\\
+8
+\end{pmatrix}\right)=\tfrac{1}{4}\begin{pmatrix}40\\
+25\\
+8
+\end{pmatrix}=\begin{pmatrix}10\\
+6.25\\
+2
+\end{pmatrix}\;\checkmark\\
+\mathbf{I} & =\tfrac{m}{20}\left(\mathbf{parallel}\begin{pmatrix}40\\
+25\\
+0
+\end{pmatrix}+\mathbf{parallel}\begin{pmatrix}0\\
+25\\
+8
+\end{pmatrix}+\mathbf{parallel}\begin{pmatrix}40\\
+0\\
+8
+\end{pmatrix}\right)\\
+ & =m\,\begin{vmatrix}68.9 & -50 & -16\\
+ & 166.4 & -10\\
+\text{symmetry} &  & 22.5
+\end{vmatrix}=\begin{vmatrix}0.9186\overline{6} & -0.66\overline{6} & -0.213\overline{3}\\
+ & 0.22186\overline{6} & -0.133\overline{3}\\
+\text{symmetry} &  & 2.96\overline{6}
+\end{vmatrix}\;\checkmark\\
+\mathbf{I}_{C} & =\begin{vmatrix}0.9186\overline{6} & -0.66\overline{6} & -0.213\overline{3}\\
+ & 0.22186\overline{6} & -0.133\overline{3}\\
+\text{symmetry} &  & 2.96\overline{6}
+\end{vmatrix}-m\,\mathbf{parallel}\begin{pmatrix}10\\
+6.25\\
+2
+\end{pmatrix}=\\
+ & =\begin{vmatrix}0.9186\overline{6} & -0.66\overline{6} & -0.213\overline{3}\\
+ & 0.22186\overline{6} & -0.133\overline{3}\\
+\text{symmetry} &  & 2.96\overline{6}
+\end{vmatrix}-m\begin{vmatrix}40.0625 & -62.5 & -20.0\\
+ & 104.0 & -12.5\\
+\text{symmetry} &  & 139.0625
+\end{vmatrix}\\
+ & =\begin{vmatrix}0.3445 & 0.166\overline{6} & 0.0533\overline{3}\\
+ & 0.8320 & 0.33\overline{3}\\
+\text{symmetry} &  & 1.1125
+\end{vmatrix}\;\checkmark
+\end{align}
+
+\end_inset
+
+
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename bottle_mmoi.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:bottle-STL"
+
+\end_inset
+
+Complex shape defined as an STL file with mass properties analyzed in CAD.
+ The file contains 
+\begin_inset Formula $5088$
+\end_inset
+
+ vertices and 
+\begin_inset Formula $1696$
+\end_inset
+
+ triangular faces.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Complex Geometry
+\end_layout
+
+\begin_layout Standard
+To handle a complex mesh, such as an STL file, then each triangle defines
+ volume 
+\begin_inset Formula $V_{i}$
+\end_inset
+
+, mass 
+\begin_inset Formula $m_{i}$
+\end_inset
+
+, center of mass 
+\begin_inset Formula $\bvec c_{i}$
+\end_inset
+
+ and mass moment of inertia 
+\begin_inset Formula $\mathbf{I}_{i}$
+\end_inset
+
+.
+ All of these are combined to form the overall properties.
+ Note that the volume might be either a positive or a negative value depending
+ if the triangle nodes define a clockwise sequence or a counter-clockwise
+ sequence which results the contact normal pointing away from the origin
+ in the first case, and towards the origin in the second case.
+ This happens naturally in the calculation of 
+\begin_inset Formula $\bvec r_{A}\cdot\left(\bvec r_{B}\times\bvec r_{C}\right)$
+\end_inset
+
+ for each triangle, and the result is that for 
+\emph on
+any 
+\emph default
+closed shape that the sum of all the volumes yields 
+\emph on
+the volume of the enclosed space 
+\emph default
+only.
+\begin_inset Formula 
+\begin{align}
+V & =\sum_{i}V_{i}\\
+m & =\sum_{i}\rho_{i}V_{i}\\
+\bvec c & =\tfrac{1}{m}\sum_{i}\bvec c_{i}\rho_{i}V_{i}\\
+\mathbf{I} & =\tfrac{1}{m}\sum_{i}\rho_{i}V_{i}\mathbf{I}_{i}\\
+\mathbf{I}_{C} & =\mathbf{I}-m\,\mathbf{parallel}\left(\bvec c\right)
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The surprising thing is that the above works very well.
+ In figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:bottle-STL"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ a complex shape defined in an STL file is imported into CAD and the mass
+ properties analyzed.
+ The same STL file was processed using the calculations in this paper in
+ a Fortran program.
+ The results are summarized in the table below using a density of 
+\begin_inset Formula $\rho=7600\,\unit{kg/m^{3}}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Property
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Symbol
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Component
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CAD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fortran
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Units
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Check
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $m$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.35025
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.35025
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\unit{kg}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\checkmark$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Volume
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+46085.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+46086.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\unit{mm^{3}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\checkmark$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Center of Mass
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bvec c$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\unit{mm}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\checkmark$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+y
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45.6206
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45.621
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\unit{mm}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\checkmark$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+z
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\unit{mm}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\checkmark$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MMOI at COM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\mathbf{I}_{C}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+151.36
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+151.36 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\unit{kg\,mm^{2}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\checkmark$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+y
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+47.463
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+47.462
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\unit{kg\,mm^{2}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\checkmark$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+z
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+174.52
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+174.51 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\unit{kg\,mm^{2}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\checkmark$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Fortran Code
+\end_layout
+
+\begin_layout Standard
+Below is a sample of Fortran code used to generate the results above
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+lstparams "language=Fortran,numbers=left,tabsize=4"
+inline false
+status open
+
+\begin_layout Plain Layout
+\noindent
+
+subroutine calc_properties(mesh,mass,V,cg,Ic)
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+class(mesh3), intent(in) :: mesh
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+real(8), intent(in) :: mass
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+real(8), intent(out) :: V
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+type(vector3), intent(out) :: cg
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+type(symmatrix3), intent(out) :: Ic
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+real(8) :: rho, i_V
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+type(vector3) :: i_cg, A,B,C
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+type(symmatrix3) :: i_mmoi, I0
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+integer :: i
+\end_layout
+
+\begin_layout Plain Layout
+
+    V = 0d0
+\end_layout
+
+\begin_layout Plain Layout
+
+    cg = 0d0
+\end_layout
+
+\begin_layout Plain Layout
+
+    I0 = 0d0
+\end_layout
+
+\begin_layout Plain Layout
+
+    do i=1, mesh%n_faces
+\end_layout
+
+\begin_layout Plain Layout
+
+		A = mesh%nodes( mesh%faces(1, i) )
+\end_layout
+
+\begin_layout Plain Layout
+
+		B = mesh%nodes( mesh%faces(2, i) )
+\end_layout
+
+\begin_layout Plain Layout
+
+		C = mesh%nodes( mesh%faces(3, i) )
+\end_layout
+
+\begin_layout Plain Layout
+
+		i_V = dot(A, cross(B, C))/6d0
+\end_layout
+
+\begin_layout Plain Layout
+
+		V = V + i_V
+\end_layout
+
+\begin_layout Plain Layout
+
+		i_cg = (A+B+C)/4d0
+\end_layout
+
+\begin_layout Plain Layout
+
+		cg = cg + i_cg*i_V
+\end_layout
+
+\begin_layout Plain Layout
+
+		i_mmoi = (parallel(A+B) + parallel(B+C) + parallel(C+A))/20d0
+\end_layout
+
+\begin_layout Plain Layout
+
+		I0 = I0 + i_mmoi*i_V
+\end_layout
+
+\begin_layout Plain Layout
+
+	end do
+\end_layout
+
+\begin_layout Plain Layout
+
+! Find the center of mass
+\end_layout
+
+\begin_layout Plain Layout
+
+    cg = cg/V
+\end_layout
+
+\begin_layout Plain Layout
+
+! I0 now contains the MMOI at the origin (divided by density)
+\end_layout
+
+\begin_layout Plain Layout
+
+! We need to transfer it to the center of mass
+\end_layout
+
+\begin_layout Plain Layout
+
+    rho = mass/V
+\end_layout
+
+\begin_layout Plain Layout
+
+	Ic = rho*I0  - mass*parallel(cg)
+\end_layout
+
+\begin_layout Plain Layout
+
+end subroutine 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+function parallel(pos) result(r)
+\end_layout
+
+\begin_layout Plain Layout
+
+class(vector3), intent(in) :: pos
+\end_layout
+
+\begin_layout Plain Layout
+
+type(symmatrix3) :: r
+\end_layout
+
+\begin_layout Plain Layout
+
+	r%A11 = (pos%y**2 + pos%z**2)
+\end_layout
+
+\begin_layout Plain Layout
+
+	r%A22 = (pos%x**2 + pos%z**2)
+\end_layout
+
+\begin_layout Plain Layout
+
+	r%A33 = (pos%x**2 + pos%y**2)
+\end_layout
+
+\begin_layout Plain Layout
+
+	r%A12 = -(pos%x*pos%y)
+\end_layout
+
+\begin_layout Plain Layout
+
+	r%A23 = -(pos%y*pos%z)
+\end_layout
+
+\begin_layout Plain Layout
+
+	r%A13 = -(pos%x*pos%z)
+\end_layout
+
+\begin_layout Plain Layout
+
+end function 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+function dot(this,other) result(r)
+\end_layout
+
+\begin_layout Plain Layout
+
+class(vector3), intent(in) :: this, other
+\end_layout
+
+\begin_layout Plain Layout
+
+real(8) :: r
+\end_layout
+
+\begin_layout Plain Layout
+
+	r = this%x*other%x + this%y*other%y + this%z*other%z
+\end_layout
+
+\begin_layout Plain Layout
+
+end function
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+function cross(this,other) result(r)
+\end_layout
+
+\begin_layout Plain Layout
+
+class(vector3), intent(in) :: this, other
+\end_layout
+
+\begin_layout Plain Layout
+
+type(vector3) :: r
+\end_layout
+
+\begin_layout Plain Layout
+
+    r = vector3( &
+\end_layout
+
+\begin_layout Plain Layout
+
+        this%y*other%z - this%z*other%y, &
+\end_layout
+
+\begin_layout Plain Layout
+
+        this%z*other%x - this%x*other%z, &
+\end_layout
+
+\begin_layout Plain Layout
+
+        this%x*other%y - this%y*other%x )
+\end_layout
+
+\begin_layout Plain Layout
+
+end function 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
